@@ -13,7 +13,7 @@ char buffer[10];
 char secret[10];
 int size,i;
 
-//Just give input for string and index of string as -7 and see buffer overread read your dirty secrets.
+//Just give input for string and index of string as -7 and see buffer overread read the dirty secrets.
 strcpy(secret,"topsecret");
 printf("Enter string:");
 scanf("%s",buffer);
